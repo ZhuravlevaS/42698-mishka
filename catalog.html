@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    	<title>HTML Academy: Мишка</title>
+    </head>
+    <body class="page">
+        <header class="main-header container">
+            <a href="#" class="logo-link"><img src="img/logo-mobile.svg" alt="MISHKA"></a>
+            <button class="main-header__btn"></button>
+            <nav class="main-nav">
+                <ul class="main-nav__list-info">
+                    <li class="main-nav__item"><a href="#" class="main-nav__link">Каталог товаров</a></li>
+                    <li class="main-nav__item"><a href="#" class="main-nav__link">Вязание на заказ</a></li>
+                    <li class="main-nav__item main-nav__item--extra"><a href="#" class="main-nav__link">Новые поступления</a></li>
+                    <li class="main-nav__item main-nav__item--extra"><a href="#" class="main-nav__link">Распродажа</a></li>
+                </ul>
+                <ul class="main-nav__list-user">
+                    <li class="main-nav__item main-nav__item--search"><a href="#" class="main-nav__link main-nav__link--search">Поиск по сайту</a></li>
+                    <li class="main-nav__item main-nav__item--busket"><a href="#" class="main-nav__link main-nav__link--busket">Корзина: пока пуста</a></li> 
+                    <li class="main-nav__item main-nav__item--delivery">Бесплатная доставка по России</li>   
+                            
+                </ul>
+            </nav>
+        </header>    
+  		<main>
+  			<h1 class="main-title">Каталог товаров</h1>
+  			<div class="good__wrap container">
+  				<section class="good">
+  					<a class="good__link-img" href="#"><img class="good__img" src="img/photo-1-mobile@1x.jpg" alt="Зайчик-попрыгайчик"></a>
+                    <div class="good__descr">
+  					    <a class="good__link" href="#">Зайчик-попрыгайчик</a>
+  					    <p class="good__option">Рост 30 см, вес 200 г</p>
+  					    <div class="good__price"><span class="good__price-entity">1 200</span> руб.</div>
+                    </div>
+  				</section>
+  				<section class="good">
+  					<a class="good__link-img" href="#"><img class="good__img" src="img/photo-2-mobile@1x.jpg" alt="Корзинка для белья"></a>
+                    <div class="good__descr">
+  					    <a class="good__link" href="#">Корзинка для белья</a>
+  					    <p class="good__option">Диаметр 15 см, высота 10 см</p>
+  					    <div class="good__price"><span class="good__price-entity">690</span> руб.</div>
+                    </div>
+  				</section>
+  				<section class="good">
+  					<a class="good__link-img" href="#"><img class="good__img" src="img/photo-3-mobile@1x.jpg" alt="Большая корзинка для игрушек"></a>
+                    <div class="good__descr">
+  					    <a class="good__link" href="#">Большая корзинка для игрушек</a>
+  					    <p class="good__option">Диаметр 30 см, высота 30 см</p>
+  					    <div class="good__price"><span class="good__price-entity">1 500</span> руб.</div>
+                    </div>    
+  				</section>
+  			</div>
+  			<section class="video-product container">
+  				<h2 class="video-product__title">Процесс производства</h2>
+  				<img class="video-product__img" src="img/video-mobile@1x.jpg" alt="video">
+                <div class="video-product__text-wrap">
+				    <p class="video-product__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+				    <button class="btn video-product__btn" type="button">Сделать заказ</button>
+                </div>
+  			</section>
+  		</main>	
+   		<footer class="footer">
+            <div class="container footer__wrap">
+                <img class="footer__logo" src="#" width="102" height="35" alt="MISHKA">
+                <ul class="social">
+                    <li class="social-item"><a class="social-link social-link--inst" href=""></a></li>
+                    <li class="social-item"><a class="social-link social-link--fb" href=""></a></li>
+                    <li class="social-item"><a class="social-link social-link--twit" href=""></a></li>
+                </ul>
+                <div class="copyright">
+                    <a href="" class="copyright__html-academy-link">Разработано</a>
+                </div>
+            </div>    
+        </footer>
+        <div class="modal container">
+            <h3 class="modal__title">Добавить в корзину</h3>
+            <form class="form-size">
+                <legend class="form-size__title">Выберите размер:</legend>
+                <div class="form-size__input-wrap">
+                    <input class="form-size__input" type="radio" name="size" value="S" id="S"><label class="form-size__label" for="S">S</label>
+                    <input class="form-size__input" type="radio" name="size" value="M" id="M"><label class="form-size__label" for="M">M</label>
+                    <input class="form-size__input" type="radio" name="size" value="L" id="L"><label class="form-size__label" for="L">L</label>
+                </div>    
+                <button class="btn btn--green" type="submit">Добавить</button>
+            </form>
+        </div>      		
+ 	</body>
+</html>
