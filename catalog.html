@@ -29,7 +29,16 @@
   			<h1 class="main-title">Каталог товаров</h1>
   			<div class="good__wrap container">
   				<section class="good">
-  					<a class="good__link-img" href="#"><img class="good__img" src="img/photo-1-mobile@1x.jpg" alt="Зайчик-попрыгайчик"></a>
+  					<a class="good__link-img" href="#">
+                        <picture>
+                            <!-- Десктоп -->
+                            <source media="(min-width: 1100px)" srcset="img/photo-1-desktop@2x.jpg 2x, img/photo-1-desktop@1x.jpg 1x">
+                            <!-- Планшет  -->
+                            <source media="(min-width: 700px)" srcset="img/photo-1-tablet@2x.jpg 2x, img/photo-1-tablet@1x.jpg 1x">
+                            <!-- Моб  -->
+                            <img src="img/photo-1-mobile@1x.jpg" srcset="img/photo-1-mobile@2x.jpg 2x" class="good__img" alt="Зайчик-попрыгайчик">             
+                        </picture>
+                    </a>
                     <div class="good__descr">
   					    <a class="good__link" href="#">Зайчик-попрыгайчик</a>
   					    <p class="good__option">Рост 30 см, вес 200 г</p>
