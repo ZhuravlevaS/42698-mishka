@@ -46,7 +46,16 @@
                     </div>
   				</section>
   				<section class="good">
-  					<a class="good__link-img" href="#"><img class="good__img" src="img/photo-2-mobile@1x.jpg" alt="Корзинка для белья"></a>
+  					<a class="good__link-img" href="#">
+                        <picture>
+                            <!-- Десктоп -->
+                            <source media="(min-width: 1100px)" srcset="img/photo-2-desktop@2x.jpg 2x, img/photo-2-desktop@1x.jpg 1x">
+                            <!-- Планшет  -->
+                            <source media="(min-width: 700px)" srcset="img/photo-2-tablet@2x.jpg 2x, img/photo-2-tablet@1x.jpg 1x">
+                            <!-- Моб  -->
+                            <img src="img/photo-2-mobile@1x.jpg" srcset="img/photo-2-mobile@2x.jpg 2x" class="good__img" alt="Корзинка для белья">             
+                        </picture>
+                    </a>
                     <div class="good__descr">
   					    <a class="good__link" href="#">Корзинка для белья</a>
   					    <p class="good__option">Диаметр 15 см, высота 10 см</p>
@@ -54,7 +63,16 @@
                     </div>
   				</section>
   				<section class="good">
-  					<a class="good__link-img" href="#"><img class="good__img" src="img/photo-3-mobile@1x.jpg" alt="Большая корзинка для игрушек"></a>
+  					<a class="good__link-img" href="#">
+                        <picture>
+                            <!-- Десктоп -->
+                            <source media="(min-width: 1100px)" srcset="img/photo-3-desktop@2x.jpg 2x, img/photo-3-desktop@1x.jpg 1x">
+                            <!-- Планшет  -->
+                            <source media="(min-width: 700px)" srcset="img/photo-3-tablet@2x.jpg 2x, img/photo-3-tablet@1x.jpg 1x">
+                            <!-- Моб  -->
+                            <img src="img/photo-3-mobile@1x.jpg" srcset="img/photo-3-mobile@2x.jpg 2x" class="good__img" alt="Большая корзинка для игрушек">             
+                        </picture>
+                    </a>
                     <div class="good__descr">
   					    <a class="good__link" href="#">Большая корзинка для игрушек</a>
   					    <p class="good__option">Диаметр 30 см, высота 30 см</p>
@@ -63,8 +81,15 @@
   				</section>
   			</div>
   			<section class="video-product container">
-  				<h2 class="video-product__title">Процесс производства</h2>
-  				<img class="video-product__img" src="img/video-mobile@1x.jpg" alt="video">
+  				<h2 class="video-product__title">Процесс производства</h2>  				
+                <picture>
+                            <!-- Десктоп -->
+                    <source media="(min-width: 1100px)" srcset="img/video-desktop@2x.jpg 2x, img/video-desktop@1x.jpg 1x">
+                            <!-- Планшет  -->
+                    <source media="(min-width: 700px)" srcset="img/video-tablet@2x.jpg 2x, img/video-tablet@1x.jpg 1x">
+                            <!-- Моб  -->
+                    <img src="img/video-mobile@1x.jpg" srcset="img/video-mobile@2x.jpg 2x" class="good__img" alt="video">             
+                </picture>
                 <div class="video-product__text-wrap">
 				    <p class="video-product__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
 				    <button class="btn video-product__btn" type="button">Сделать заказ</button>

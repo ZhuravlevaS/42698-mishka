@@ -1,0 +1,13 @@
+.copyright {
+	min-height: 80px;
+	padding: 27px 38px;
+	box-sizing: border-box;
+}
+
+.copyright__html-academy-link {
+	color: #000;
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 18px;
+	text-decoration: none;
+}
