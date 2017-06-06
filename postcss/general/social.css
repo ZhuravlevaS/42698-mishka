@@ -1,0 +1,24 @@
+.social {
+	list-style: none;
+	padding: 0 58px;
+	padding-top: 24px;
+	margin: 0;
+	width: 260px;
+	min-height: 80px;
+	box-sizing: border-box;
+	border-bottom: 1px solid $color-bg-border-2;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (min-width: 700px) {
+	.social {
+		border: none;
+	}
+}
+
+.social-item {
+	width: 22px;
+	height: 22px;
+	background: red;
+}
