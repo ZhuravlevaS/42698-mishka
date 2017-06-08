@@ -1,0 +1,29 @@
+.btn {
+	width: 255px;
+	box-sizing: border-box;
+	outline: 2px solid $color-text;
+	color: $color-text;
+	background: none;
+	border: none;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 46px;
+	text-transform: uppercase;
+	display: block;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: $color-text;
+	color: #fff;
+}
+
+.btn:active {	
+	color: #8d8d8d;
+}
+
+@media (min-width: 700px) {
+	.btn {
+		width: 288px;
+	}
+}
