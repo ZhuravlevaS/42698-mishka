@@ -1,0 +1,52 @@
+.logo-link {
+	display: block;
+	width: 86px;
+	height: 36px;
+	margin: 22px auto;	
+}
+
+@media (min-width: 700px) {
+	.logo-link {
+		margin: 0;
+	}
+}
+
+@media (min-width: 1100px) {
+	.logo-link {
+		position: absolute;
+		left: 475px;
+		top: 9px;
+	}
+}
+
+.logo-link__img-tab,
+.logo-link__img-desk {
+	display: none;
+}
+
+@media (min-width: 700px) {
+	.logo-link__img-mob {
+		display: none;
+	}
+	.logo-link__img-tab {
+		display: block;
+	}
+}
+
+@media (min-width: 1100px) {
+	.logo-link__img-mob,
+	.logo-link__img-tab {
+		display: none;
+	}
+	.logo-link__img-desk {
+		display: block;
+	}
+}
+
+.logo-link:hover .logo-link__use {
+	fill: $color-hover-1;
+} 
+
+.logo-link:active .logo-link__use {
+	fill: $color-active-1;
+} 

@@ -1,0 +1,29 @@
+.form-size__input-wrap {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 31px;
+}
+
+.form-size__title {
+	padding: 0;
+	margin: 0;
+	display: block;
+	line-height: 30px;
+	text-align: center;
+}
+
+.form-size__input {
+	display: none;
+}
+
+.form-size__label {
+	display: block;
+	min-width: 82px;
+	height: 52px;
+	box-sizing: border-box;
+	border: 2px solid $color-bg-border;
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 12px 0;
+}
