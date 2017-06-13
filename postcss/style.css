@@ -15,6 +15,7 @@
 @import "general/section-title.css";
 @import "general/social.css";
 @import "general/main-header__btn.css";
+@import "general/overlay.css";
 
 @import "index/contacts.css";
 @import "index/feedback.css";

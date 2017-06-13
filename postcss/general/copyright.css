@@ -1,7 +1,15 @@
 .copyright {
 	min-height: 80px;
-	padding: 27px 38px;
+	width: 184px;
+	padding: 27px 0;
+	padding-left: 39px;
 	box-sizing: border-box;
+}
+
+@media (min-width: 700px) {
+	.copyright {
+		padding-left: 2px;
+	}
 }
 
 .copyright__html-academy-link {
@@ -10,4 +18,29 @@
 	font-weight: bold;
 	line-height: 18px;
 	text-decoration: none;
+	position: relative;
+
+	&:hover .copyright__use {
+		fill: $color-hover-2;
+	}
+
+	&:active {
+		color: $color-active-1; 
+	}
+
+	&:active .copyright__use{
+		opacity: 0.3; 
+	}
+}
+
+.copyright__html-academy-icon {
+	position: absolute;
+	top: -2px;
+	right: -56px;
+	fill: $color-tiffany;
+}
+
+.copyright__use {
+	width: 27px;
+	height: 34px;
 }

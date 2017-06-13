@@ -4,7 +4,8 @@
 
 @media (min-width: 700px) {
 	.footer {
-		padding: 50px 0px;
+		padding-top: 35px;
+		padding-bottom: 29px;
 	}
 }
 
@@ -14,12 +15,31 @@
 	justify-content: space-between;
 }
 
+@media (min-width: 1100px) {
+	.footer__wrap {
+		padding: 0 26px;
+	}
+}
+
 .footer__logo {
 	display: none;
+	width: 102px; 
+	height: 35px;
+}
+
+.footer__logo:hover .footer__use{
+	fill: $color-tiffany;
+}
+
+.footer__logo:active .footer__use{
+	fill: $color-tiffany;
+	opacity: 0.3;
 }
 
 @media (min-width: 700px) {
 	.footer__logo {
 		display: block;
+		margin-left: 1px;
+		margin-top: 16px;
 	}
 }

@@ -12,8 +12,18 @@
 	text-align: center;
 }
 
+@media (min-width: 700px) {
+	.form-size__title {
+		margin-bottom: 20px;
+ 	}
+}
+
 .form-size__input {
 	display: none;
+}
+
+.form-size__input:checked+.form-size__label {
+	border: 2px solid $color-tiffany;
 }
 
 .form-size__label {
@@ -26,4 +36,22 @@
 	font-size: 17px;
 	font-weight: bold;
 	padding: 12px 0;
+}
+
+.form-size__label:hover {
+	border: 2px solid $color-hover-3;
+}
+
+.form-size__label:active {
+	border: 2px solid $color-tiffany;
+}
+
+@media (min-width: 700px) {
+	.form-size__label {
+		width: 112px;
+ 	}
+}
+
+.form-size__btn {
+	margin: 0 auto;
 }

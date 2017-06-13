@@ -1,13 +1,11 @@
 .main-nav {
-	// display: none;
-
+	display: none;
 }
 
 @media (min-width: 700px) {
 	.main-nav {
 		display: flex;
 		justify-content: space-between;
-
 	}
 }
 
@@ -232,7 +230,7 @@
 
 @media (min-width: 700px) {
 	.main-nav__img-basket  {
-		left: 31px;
+		left: 30px;
 		top: 35px;
 	}
 }

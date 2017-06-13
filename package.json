@@ -5,11 +5,11 @@
   "description": "Личный проект «Мишка» от HTML Academy",
   "devDependencies": {
     "autoprefixer": "6.7.x",
-    "browser-sync": "2.18.12",
+    "browser-sync": "2.18.8",
     "gulp": "3.9.1",
     "gulp-plumber": "1.1.0",
-    "gulp-postcss": "6.4.0",
-    "@htmlacademy/editorconfig-cli": "1.x",
+    "gulp-postcss": "6.3.0",
+    "@htmlacademy/editorconfig-cli": "0.1.x",
     "precss": "1.4.0"
   },
   "scripts": {
