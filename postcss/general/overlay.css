@@ -1,11 +1,12 @@
 .overlay {
-  	content: '';
-  	display: block;
-  	position: fixed;
-  	top: 0;
-  	left: 0;
-  	height: 100%;
- 	width: 100%;
- 	background: rgba(255, 255, 255, .9);
- 	z-index: 50;
+	content: '';
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(255, 255, 255, .9);
+	z-index: 50;
+	display: none
 }
